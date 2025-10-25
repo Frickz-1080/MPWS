@@ -1,0 +1,8 @@
+@font-face {
+    font-family: centurybold;
+    src: url(../fonts/centurygothic_bold.ttf);
+}
+@font-face {
+    font-family: centurylight;
+    src: url(../fonts/century-gothic-paneuropean-light.ttf);
+}
