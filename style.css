@@ -20,12 +20,15 @@ header{
     color: white;
     align-items: center;
     padding: 13px 20px;
+    gap: 20px;
+    min-width: 600px;
 }
 header h1{
     gap: 15px;
     font-size: 1.8rem;
     display: flex;
     align-items: center;
+    font-family: centurylight;
 }
 header ul{
     display: flex;
@@ -34,7 +37,6 @@ header ul{
     gap: 20px;
 }
 header a{
-
     text-decoration: none;
     color: white;
 }
