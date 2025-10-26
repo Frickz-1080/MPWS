@@ -10,13 +10,31 @@
 /* ========== HEADER ========== */
 
 header img{
-    width: 3rem;
+    width: 2.5rem;
 }
 header{
     background: rgba(0, 0, 0, 0.352);
     border-bottom: 1px solid rgba(255, 255, 255, 0.427);
-}
-header nav{
     display: flex;
     justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 13px 20px;
+}
+header h1{
+    gap: 15px;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    font-family: centurylight;
+    gap: 20px;
+}
+header a{
+
+    text-decoration: none;
+    color: white;
 }
