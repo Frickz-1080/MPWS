@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 header{
+    min-width: 36rem;
     z-index: 999;
     width: 100%;
     position: sticky;
