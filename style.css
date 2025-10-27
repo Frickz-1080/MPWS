@@ -17,7 +17,7 @@ header{
     display: flex;
     color: white;
     gap: 20px;
-    min-width: 36rem;
+    min-width: 575px;
 }
 header nav{
     width: 100%;
