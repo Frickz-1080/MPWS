@@ -1,7 +1,46 @@
-body{
-    background: #121212;
+section.hero{
     width: 100%;
-    background-image: url(../img/fundo-cafe.png);
-    background-repeat: no-repeat;
-    background-position: top center;
+    height: 95vh;
+    background-image: url(../img/hero.png);
+    background-size: cover;
+    display: flex;
+    align-items: start;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+}
+.hero h1{
+    font-size: 3rem;
+    font-family: poppins;
+    line-height: 50px;
+}
+.hero p{
+    font-family: poppins;
+    font-size: 1.8rem;
+}
+.hero button{
+    margin-top: 30px;
+    background-color: transparent;
+    outline: 1px solid white;
+    border-radius: 100rem;
+    color: white;
+    padding: 10px 50px;
+    font-size: 1.4rem;
+}
+@media screen and (max-width:1000px){
+    .hero h1{
+        font-size: 1.8rem;
+        line-height: 30px;
+    }
+    .hero p{
+        font-size: 1.4rem
+    }
+    section.hero{
+        padding: 10px;
+    }
+    .hero button{
+        margin-top: 20px;
+        padding: 10px 17px;
+    }
 }
