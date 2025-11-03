@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(16, 16, 16);
+    background-color: rgb(21, 14, 2);
 }
 /* ========== HEADER ========== */
 
@@ -21,6 +21,8 @@ header{
     color: white;
     position: fixed;
     width: 100%;
+    backdrop-filter: blur(6px);
+    z-index: 1000;
 }
 header nav{
     width: 100%;
