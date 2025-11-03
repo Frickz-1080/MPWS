@@ -124,4 +124,7 @@ section.hero{
     .fullscreen h1{
         font-size: 1.7rem;
     }
+    .fav{
+        margin-top: 50px;
+    }
 }
